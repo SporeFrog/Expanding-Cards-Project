@@ -5,11 +5,9 @@ function switchActive (){
     document.querySelectorAll(".panel")[i].classList.remove("active");
   }
   
-  if(this.classList.contains("active")){
-    this.classList.remove("active");
-  } else {
+ 
     this.classList.add("active");
-  }
+  
   // var otherPanels = document.querySelectorAll()[]
 }
 
